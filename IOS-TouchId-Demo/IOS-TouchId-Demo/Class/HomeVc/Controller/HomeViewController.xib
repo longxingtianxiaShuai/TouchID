@@ -16,13 +16,12 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dsn-3R-sf0">
-                    <frame key="frameInset" minX="-23" minY="-15" width="46" height="30"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dsn-3R-sf0">
                     <constraints>
-                        <constraint firstAttribute="width" constant="46" id="NHe-SN-w7K"/>
+                        <constraint firstAttribute="width" constant="200" id="NHe-SN-w7K"/>
                         <constraint firstAttribute="height" constant="30" id="pUl-Oz-R1R"/>
                     </constraints>
-                    <state key="normal" title="Button"/>
+                    <state key="normal" title="点击按钮后指纹验证"/>
                     <variation key="default">
                         <mask key="constraints">
                             <exclude reference="NHe-SN-w7K"/>
